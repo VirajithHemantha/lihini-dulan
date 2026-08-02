@@ -30,7 +30,7 @@ export const CeremonyDetails: React.FC = () => {
             </h2>
 
             <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
-              We are honored to invite you to witness our union as we exchange vows in a traditional Poruwa ceremony, surrounded by the beauty of nature and the warmth of our loved ones.
+              request the honour of your presence at the celebration of their marriage and to bless them as they embark upon a lifetime together.
             </p>
 
             {/* Premium Timeline */}
@@ -42,7 +42,7 @@ export const CeremonyDetails: React.FC = () => {
                   <Calendar className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Wednesday, January 20</h4>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Friday, January 22</h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">The Year Two Thousand Twenty Seven</p>
                 </div>
               </div>
@@ -53,8 +53,8 @@ export const CeremonyDetails: React.FC = () => {
                   <Clock className="w-5 h-5 text-brand-gold-deep group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">09:30 AM</h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Poruwa Ceremony - 9.45 AM</p>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">10:00 AM</h4>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Poruwa Ceremony - 10.00 a.m.</p>
                 </div>
               </div>
 
@@ -64,7 +64,7 @@ export const CeremonyDetails: React.FC = () => {
                   <MapPin className="w-5 h-5 text-brand-gold-deep group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Royal Classic Resort</h4>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Amaya Hills</h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Kandy, Sri Lanka</p>
                 </div>
               </div>

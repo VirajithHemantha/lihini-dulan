@@ -42,36 +42,7 @@ export const Footer: React.FC = () => {
           "A journey of a thousand miles begins with a single step, and we're so incredibly happy to take it together."
         </p>
 
-        <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-brand-primary/50 to-transparent mb-12" />
 
-        <div className="max-w-xl mx-auto mb-12 rounded-3xl border border-brand-primary/30 bg-brand-champagne/60 px-6 py-7 sm:px-8 text-center flex flex-col sm:flex-row justify-around">
-          <div>
-            <h3 className="text-xl sm:text-2xl font-display text-stone-800 mb-2">RSVP</h3>
-            <p className="text-xs sm:text-sm uppercase tracking-[0.22em] text-brand-primary font-semibold mb-4">Dulan</p>
-            <div className="flex flex-col gap-2 text-sm sm:text-base text-stone-700">
-              <a
-                href="tel:+94786128365"
-                className="hover:text-brand-primary transition-colors"
-                aria-label="Call Dulan"
-              >
-                +94 78 612 8365
-              </a>
-            </div>
-          </div>
-          <div className="mt-6 sm:mt-0">
-            <h3 className="text-xl sm:text-2xl font-display text-stone-800 mb-2">&nbsp;</h3>
-            <p className="text-xs sm:text-sm uppercase tracking-[0.22em] text-brand-primary font-semibold mb-4">Lihini</p>
-            <div className="flex flex-col gap-2 text-sm sm:text-base text-stone-700">
-              <a
-                href="tel:+94769121479"
-                className="hover:text-brand-primary transition-colors"
-                aria-label="Call Lihini"
-              >
-                +94 76 912 1479
-              </a>
-            </div>
-          </div>
-        </div>
 
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="text-[10px] sm:text-xs text-stone-400 font-bold uppercase tracking-[0.3em]">

@@ -77,9 +77,24 @@ export const RSVPForm: React.FC = () => {
           </h2>
           
           <p className="text-stone-500/90 font-serif text-lg leading-relaxed mb-6">
-            Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.
+            Your gracious presence and blessings will make our celebration truly memorable. Please kindly let us know if you will be able to join us.
           </p>
-          <div className="w-12 h-[1px] bg-brand-primary/50 mx-auto lg:mx-0" />
+          <div className="w-12 h-[1px] bg-brand-primary/50 mx-auto lg:mx-0 mb-8" />
+          
+          <div className="flex flex-col sm:flex-row gap-8 justify-center lg:justify-start">
+            <div>
+              <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] font-bold text-stone-500 mb-1">Lihini</p>
+              <a href="tel:0769121479" className="text-lg sm:text-xl font-serif italic text-brand-primary hover:text-brand-primary-deep transition-colors">
+                076 912 1479
+              </a>
+            </div>
+            <div>
+              <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] font-bold text-stone-500 mb-1">Dulan</p>
+              <a href="tel:0786128365" className="text-lg sm:text-xl font-serif italic text-brand-primary hover:text-brand-primary-deep transition-colors">
+                078 612 8365
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Right Side: Flowing Form */}
