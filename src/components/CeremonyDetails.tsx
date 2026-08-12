@@ -97,7 +97,7 @@ export const CeremonyDetails: React.FC = () => {
               <div className="text-center">
                 <h4 className="font-display text-3xl sm:text-4xl text-stone-800 mb-2 sm:mb-4 tracking-tight">The Reception</h4>
                 <p className="text-stone-500/90 font-serif text-sm sm:text-[16px] leading-relaxed mb-6 sm:mb-8">
-                  Followed by a celebratory lunch and afternoon festivities in the Grand Ballroom.
+                  Followed by a celebratory lunch and afternoon festivities in the Magul Maduwa- Grand Ballroom, Amaya Hills Kandy.
                 </p>
                 <div className="inline-block px-5 sm:px-6 py-2.5 sm:py-3 bg-brand-primary/10 rounded-full border border-brand-primary/30 shadow-sm">
                   <span className="text-brand-primary font-sans font-bold tracking-[0.2em] text-[10px] sm:text-[11px] uppercase block drop-shadow-sm">11:00 AM Onwards</span>

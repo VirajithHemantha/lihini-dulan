@@ -48,9 +48,12 @@ export const Footer: React.FC = () => {
           <div className="text-[10px] sm:text-xs text-stone-400 font-bold uppercase tracking-[0.3em]">
             With all our love 💕
           </div>
-          <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
+          <div className="text-[9px] text-stone-400 tracking-widest uppercase font-medium">
             © 2027 Lihini & Dulan Wedding
           </div>
+          <p className="text-stone-400 text-xs mt-2 font-sans tracking-wider">
+            Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-stone-500 hover:text-stone-800 underline transition-colors" href="https://wa.me/94707819074">invitemint</a>
+          </p>
         </div>
       </div>
     </footer>

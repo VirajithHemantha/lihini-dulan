@@ -2,11 +2,11 @@ type SheetName = 'rsvp' | 'wish';
 
 type SheetPayload = Record<string, string | number>;
 
-const GOOGLE_SCRIPT_URL = (import.meta.env.VITE_GOOGLE_SCRIPT_URL || '').trim();
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbymegk2sgqSvaZl7oZGRnUS5i7QgThToAKfXANUtIkqHBHrY-inG9wx9KYXxzhPuea6/exec';
 
 export async function submitToGoogleSheet(sheet: SheetName, payload: SheetPayload): Promise<void> {
   if (!GOOGLE_SCRIPT_URL) {
-    throw new Error('Missing VITE_GOOGLE_SCRIPT_URL');
+    throw new Error('Missing Google Script URL');
   }
 
   const body = new URLSearchParams();
